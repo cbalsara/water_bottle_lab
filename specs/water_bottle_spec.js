@@ -14,6 +14,24 @@ describe("water bottle", function(){
   })
 });
 
+describe("water bottle", function(){
+  it("take swig of drink", function(){
+    bottle.takeDrink();
+    assert.equal(90, bottle.volume);
+  })
+});
+
+describe("water bottle", function(){
+  it("empty water bottle", function(){
+    bottle.emptyBottle();
+    assert.equal(0, bottle.volume);
+  })
+});
+
+
+
+
+
 
 
 
